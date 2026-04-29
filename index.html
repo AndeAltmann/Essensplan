@@ -310,7 +310,7 @@ const PERSONS=[
 const SHOP_CATS=['Gemüse & Obst','Fleisch & Fisch','Milch & Eier','Tiefkühl','Vorräte','Brot','Sonstiges'];
 
 // ── Server-backed state (Netlify Function + Blobs) ────────────────
-const API='https://essensplan-backend.andreas-altmann.workers.dev/state';
+const API='https://essensplan-backend.andreas-altmann.workers.dev/api/state';
 let STATE={weekName:WEEK,meals:{},ratings:{},notes:{},cooked:{},shopItems:{},version:-1};
 let inflight=0;            // pending POSTs — pause polling while writing
 let pollTimer=null;
